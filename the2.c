@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// taking pirimitive derivative
+
 int is_num(char c){
     if(c>47 && c<58){return 1;}
     else{return 0;}
